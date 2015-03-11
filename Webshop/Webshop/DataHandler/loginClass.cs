@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Data.Linq.DataContext;
+
 
 namespace Webshop.DataHandler
 {
     public class LoginClass
-    {
+    {/*
         // Northwnd inherits from System.Data.Linq.DataContext.
         Northwnd nw = new Northwnd(@"Ken.mdf");
         // or, if you are not using SQL Server Express 
@@ -21,6 +21,6 @@ namespace Webshop.DataHandler
         foreach (var customer in companyNameQuery)
         {
              Console.WriteLine(customer);
-        }
+        }*/
     }
 }
