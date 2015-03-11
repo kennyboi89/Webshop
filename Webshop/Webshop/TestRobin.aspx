@@ -11,6 +11,7 @@
     <div>
         <asp:CheckBox ID="CheckBox1" runat="server" /><asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
     </div>
+        <asp:Button ID="Button1" runat="server" Text="Button" />
     </form>
 </body>
 </html>
