@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WebShop" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WebShop" Class="DBClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
   <Connection Mode="WebSettings" ConnectionString="Data Source=ROBIN_PC\sqlexpress;Initial Catalog=WebShop;Integrated Security=True;Pooling=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="WebShopConnectionString" Provider="System.Data.SqlClient" />
   <Table Name="dbo.UserLogin" Member="UserLogins">
     <Type Name="UserLogin">

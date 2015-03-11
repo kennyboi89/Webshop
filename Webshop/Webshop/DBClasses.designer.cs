@@ -23,7 +23,7 @@ namespace Webshop
 	
 	
 	[global::System.Data.Linq.Mapping.DatabaseAttribute(Name="WebShop")]
-	public partial class DataClasses1DataContext : System.Data.Linq.DataContext
+	public partial class DBClassesDataContext : System.Data.Linq.DataContext
 	{
 		
 		private static System.Data.Linq.Mapping.MappingSource mappingSource = new AttributeMappingSource();
@@ -32,31 +32,31 @@ namespace Webshop
     partial void OnCreated();
     #endregion
 		
-		public DataClasses1DataContext() : 
+		public DBClassesDataContext() : 
 				base(global::System.Configuration.ConfigurationManager.ConnectionStrings["WebShopConnectionString"].ConnectionString, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public DataClasses1DataContext(string connection) : 
+		public DBClassesDataContext(string connection) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public DataClasses1DataContext(System.Data.IDbConnection connection) : 
+		public DBClassesDataContext(System.Data.IDbConnection connection) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public DataClasses1DataContext(string connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
+		public DBClassesDataContext(string connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
 		}
 		
-		public DataClasses1DataContext(System.Data.IDbConnection connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
+		public DBClassesDataContext(System.Data.IDbConnection connection, System.Data.Linq.Mapping.MappingSource mappingSource) : 
 				base(connection, mappingSource)
 		{
 			OnCreated();
