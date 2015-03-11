@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Webshop.master.cs" Inherits="Webshop.Webshop" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Webshop.Master.cs" Inherits="Webshop.Webshop" %>
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
