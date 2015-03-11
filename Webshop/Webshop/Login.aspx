@@ -1,16 +1,22 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Webshop.Login" %>
-
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+﻿<%@ Page Title="Login" Language="C#" MasterPageFile="~/Webshop.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="Webshop.Login" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div>
+      <asp:TextBox ID="txtUser" runat="server"></asp:TextBox>
     <div>
     
+        <asp:TextBox ID="txtPass" runat="server"></asp:TextBox>
+    
     </div>
-    </form>
-</body>
-</html>
+        <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Login" />
+        <p>
+            <asp:Label ID="lbl1" runat="server" Text=""></asp:Label>
+        </p>
+        <p>
+            <asp:Label ID="lbl2" runat="server" Text=""></asp:Label>
+        </p>
+
+        </div>
+</asp:Content>
+
