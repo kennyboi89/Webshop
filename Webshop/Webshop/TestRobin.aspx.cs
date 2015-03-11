@@ -13,5 +13,10 @@ namespace Webshop
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string txt = Button1.Text;
+        }
     }
 }
