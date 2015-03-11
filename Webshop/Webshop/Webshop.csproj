@@ -96,6 +96,7 @@
     <Compile Include="test.aspx.designer.cs">
       <DependentUpon>test.aspx</DependentUpon>
     </Compile>
+    <Compile Include="User.cs" />
     <Compile Include="Webshop.Master.cs">
       <DependentUpon>Webshop.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
