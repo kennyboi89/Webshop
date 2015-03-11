@@ -99,7 +99,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
