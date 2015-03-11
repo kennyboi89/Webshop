@@ -5,10 +5,10 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="shift.css" rel="stylesheet">
+    <link href="shift.css" rel="stylesheet"/>
     
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap.css"/>
+    <link rel="stylesheet" href="main.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -41,25 +41,25 @@
         <div class="row">
           <div class="col-md-4">
             <div class="thumbnail">
-              <img src="http://goo.gl/0sX3jq">
+              <img src="http://goo.gl/0sX3jq" />
             </div>
             <div class="thumbnail">
-              <img src="http://goo.gl/an2HXY">
-            </div>
-          </div>
-          
-          <div class="col-md-4">
-            <div class="thumbnail">
-              <img src="http://goo.gl/Av1pac">
-            </div>
-            <div class="thumbnail">
-              <img src="http://goo.gl/vw43v1">
+              <img src="http://goo.gl/an2HXY"/>
             </div>
           </div>
           
           <div class="col-md-4">
             <div class="thumbnail">
-              <img src="http://goo.gl/0Kd7UO">
+              <img src="http://goo.gl/Av1pac"/>
+            </div>
+            <div class="thumbnail">
+              <img src="http://goo.gl/vw43v1"/>
+            </div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="thumbnail">
+              <img src="http://goo.gl/0Kd7UO"/>
             </div>
           </div>
         </div>
