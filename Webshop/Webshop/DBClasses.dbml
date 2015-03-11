@@ -1,9 +1,10 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WebShop" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="WebSettings" ConnectionString="Data Source=ROBIN_PC\sqlexpress;Initial Catalog=WebShop;Integrated Security=True;Pooling=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="WebShopConnectionString" Provider="System.Data.SqlClient" />
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="WebShop" Class="DBClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\sqlexpress;Initial Catalog=WebShop;Integrated Security=True;Pooling=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="WebShopConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.UserLogin" Member="UserLogins">
     <Type Name="UserLogin">
-      <Column Name="Username" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
-      <Column Name="Password" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ID" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="username" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>
