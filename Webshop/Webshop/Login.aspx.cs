@@ -72,7 +72,7 @@ namespace Webshop
 
         public bool IsValidUser(string userName, string passWord)
         {
-            DBClassesDataContext myDB = new DBClassesDataContext();
+            DBClassDataContext myDB = new DBClassDataContext();
             IQueryable<UserLogin> users = myDB.UserLogins.Where(u => u.username == userName && u.password == passWord);
             if (users.Count() > 0)
             {
@@ -83,9 +83,26 @@ namespace Webshop
 
         public UserLogin GetUser(string userName)
         {
-             DBClassesDataContext myDB = new DBClassesDataContext();
+             DBClassDataContext myDB = new DBClassDataContext();
              var user = from UserLogin in myDB.UserLogins select UserLogin;
              return user.FirstOrDefault();
+        }
+
+        protected void btnReg_Click(object sender, EventArgs e)
+        {
+            DBClassDataContext db = new DBClassDataContext();
+            
+            UserLogin reg = new UserLogin();
+
+          
+            reg.username = txtUser.Text;
+            reg.password = txtPass.Text;
+            
+
+            db.UserLogins.InsertOnSubmit(reg);
+            
+            db.SubmitChanges();
+
         }
     }
 }
